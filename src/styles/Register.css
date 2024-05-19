@@ -1,0 +1,56 @@
+/*../styles/Register.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.form-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    /* Increased corner curve */
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Shadow effect */
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="tel"],
+.form-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: transparent;
+    color: #007bff;
+    /* Elegant blue label color */
+    text-align: left;
+    /* Align labels to the left */
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="email"]:focus,
+.form-box input[type="tel"]:focus,
+.form-box input[type="password"]:focus {
+    border-color: #ff6347;
+    /* Orange border color on focus */
+}

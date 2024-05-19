@@ -1,0 +1,76 @@
+/* General wrapper for the login form */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9f9f9; /* Consistent background color */
+}
+
+/* Styling for the login form container */
+.form-box.login {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 16px; /* Increased corner curve */
+    width: 300px; /* Smaller width for a compact look */
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
+
+/* Input fields and labels */
+.input-box {
+    display: flex;
+    flex-direction: row-reverse; /* Labels on the left */
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Elegant blue label color */
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: transparent;
+    color: #007bff;
+    text-align: left;
+}
+
+/* Orange border color on focus */
+.input-box input:focus {
+    border-color: #ff6347;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px; /* Spacing after the last input field */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styles for visual appeal */
+body {
+    font-family: Arial, sans-serif;
+}
+
+input[type="email"], input[type="password"] {
+    margin-top: 5px; /* Added margin to separate inputs */
+}
